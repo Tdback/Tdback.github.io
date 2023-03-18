@@ -2,7 +2,7 @@
 #+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
 
 * Emacs:
-*** [[./Emacs.org][Emacs Configuration]]
+*** [[https://github.com/Tdback/Arch/blob/main/.emacs.d/Emacs.org][Emacs Configuration]]
 
 * Linux: 
 *** More Coming Soon...
