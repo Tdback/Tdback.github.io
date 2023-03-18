@@ -33,6 +33,6 @@ Outside of technology, you can expect to find me trying new coffees and brewing 
 * Contact Information
 Feel free to reach out to me [at] tylerdback@pm.me if you have any questions about *nix, programming, technology, or just want to talk! Just make sure to mention you viewed my website, or I might mistake you for spam :)
 
-Check out my [[https://github.com/Tdback][github]]! There you'll find all my configuration files for my systems, and any current or past projects I've worked on.
+Check out my [[https://github.com/Tdback][GitHub]]! There you'll find all my configuration files for my systems, and any current or past projects I've worked on.
 
 You can also find me on [[https://www.linkedin.com/in/tyler-dback/][LinkedIn]]! Feel free to follow me or send me a message, but again, make sure to mention that you viewed my site so I don't mistake you for spam :)
