@@ -1,9 +1,6 @@
 #+TITLE: tylerdback.com
 #+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
 
-#+begin_src shell
-echo "Hello, world!"
-#+end_src
 I'm Tyler, a Linux enthusiast and hobbyist programmer, and welcome to my site!
 
 Click [[./toc.org][here]] to go the the site's Table of Contents!
