@@ -7,9 +7,9 @@ My name is Tyler, but you'll usually find me going by my online handle: /Tdback/
 
 A little about me: To start, I'm a Linux enthusiast and hobbyist programmer. When it comes to technology, I am very passionate about having complete control over your technology and the ability to customize every aspect of the technology you are using, whether it's a text editor or your operating system. I love exploring new technology, and can oftentimes be found tinkering with new software and breaking things in the Linux terminal.
 
-I'm an avid programmer, but moreso a scripter and *nix plumber. Most of what I write in nowadays comprises of hacky bash scripts, text processing with tools like sed, grep, and Awk, and the occasional sprinkle of Python and Perl. When I'm not writing scripts to shave seconds off my workflow I can be found customizing my text editor of choice, Emacs. You can find several links to my Emacs configuration throughout the site, but for fun I can throw another one [[https://github.com/Tdback/Arch/blob/main/.emacs.d/Emacs.org][here]]. In fact, this website was written using org-mode, an Emacs major mode for keeping notes, writing documents, and making statics websites! I also frequently use both Ansible and Docker, which are my tools of choice for automation and running server applications on my home server pc. Expect to find a few blog posts and guides surrounding any of these tools and languages!
+I'm an avid programmer, but more so a scripter and *nix plumber. Most of what I write in nowadays comprises of hacky bash scripts, text processing with tools like sed, grep, and Awk, and the occasional dash of Python or Perl. When I'm not writing scripts to shave seconds off my workflow I can be found customizing my text editor of choice, Emacs. You can find several links to my Emacs configuration throughout the site, but for fun I can throw another one [[https://github.com/Tdback/Arch/blob/main/.emacs.d/Emacs.org][here]]. In fact, this entire website was written using org-mode, an Emacs major mode for keeping notes, writing documents, and generating HTML from markdown-like syntax (it's org-mode syntax, which is superior in my opinion)! I also frequently use both Ansible and Docker, which are my tools of choice for automation and running server applications on my home server pc. Expect to find a few blog posts and guides surrounding any of these tools and languages! Oh, and did I mention that I use Arch btw?
 
-Outside of technology, you can expect to find me trying new coffees and brewing techniques with my buddy Lane (whose site you can find [[https://www.lanerj.com/home][here]]), watching horror movies (80's slashers are by far my favorite) or going on long walks near my apartment. Sometimes when you're stuck on a problem all you need is a breath of fresh air!
+Outside of technology, you can expect to find me trying out new coffees and brewing techniques with my buddy Lane (whose site you can find [[https://www.lanerj.com/home][here]]), watching horror movies with my fiance (80's slashers are by far my favorite), playing videogames with the guys, or going on long walks by the rivers and woods near my apartment. Sometimes when you're stuck on a problem all you need is a breath of fresh air!
 
 * Certifications
 *** Security+
@@ -31,8 +31,8 @@ Outside of technology, you can expect to find me trying new coffees and brewing 
 - Assistant Sensei teaching martial arts to adults and children.
 
 * Contact Information
-Feel free to reach out to me [at] tylerdback@pm.me if you have any questions about *nix, programming, technology, or just want to talk! Just make sure to mention you viewed my website, or I might mistake you for spam :)
-
-Check out my [[https://github.com/Tdback][GitHub]]! There you'll find all my configuration files for my systems, and any current or past projects I've worked on.
+Feel free to reach out to me [at] =tylerdback@pm.me= if you have any questions about *nix, programming, technology, or just want to talk! Just make sure to mention you viewed my website, or I might mistake you for spam :)
 
 You can also find me on [[https://www.linkedin.com/in/tyler-dback/][LinkedIn]]! Feel free to follow me or send me a message, but again, make sure to mention that you viewed my site so I don't mistake you for spam :)
+
+And finally, don't forget to check out my [[https://github.com/Tdback][GitHub]]! There you can find all my dotfiles (configuration files for my desktop, laptop, etc.) and any current or past projects I'm working on.
