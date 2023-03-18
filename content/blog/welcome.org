@@ -1,0 +1,12 @@
+#+TITLE: Welcome!
+Date: Mar 17, 2023
+
+Welcome to my first ever blog post, marking the genesis of my website! Here you will find various topics such as tech news, fun and interesting tools or tricks, or the occasional rant from time to time (sorry in advance).
+
+Today is March 17, 2023 (which probably won't be the case when this site finally goes live) which marks the official birth of my site. So cheers to that!
+
+As of now, I plan to post to my blog two to three times a week (time permitting of course). That is of course subject to change, but I will try my best to stay committed to those who like reading my rants and "objective" thoughts about various topics. If you didn't notice already, many of these posts will be filled with sarcasm, jokes, and a hot take or two. But it's my website, so I can do what /I/ want. Simple as that :)
+
+If you'd like to know more information about the author (myself of course), feel free to check out the [[../about/about.org][About]] page on my site! There you can also find my contact information, work experience, and certifications.
+
+Stay safe and happy hacking!

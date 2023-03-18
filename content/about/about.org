@@ -1,0 +1,38 @@
+#+TITLE: About Me
+#+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
+
+/Hi there fellow hackers!/
+
+My name is Tyler, but you'll usually find me going by my online handle: /Tdback/.
+
+A little about me: To start, I'm a Linux enthusiast and hobbyist programmer. When it comes to technology, I am very passionate about having complete control over your technology and the ability to customize every aspect of the technology you are using, whether it's a text editor or your operating system. I love exploring new technology, and can oftentimes be found tinkering with new software and breaking things in the Linux terminal.
+
+I'm an avid programmer, but moreso a scripter and *nix plumber. Most of what I write in nowadays comprises of hacky bash scripts, text processing with tools like sed, grep, and awk, and the occasional sprinkle of Python and Perl. When I'm not writing scripts to shave seconds of my workflow I can be found customizing my text editor of choice, Emacs. You can find several links to my Emacs configuration throughout the site, but for fun I can throw another one [[../linux/Emacs.org][here]]. In fact, this website was written using org-mode, an Emacs major mode for keeping notes, writing documents, and making statics websites! I also frequently use both Ansible and Docker, which are my tools of choice for automation and running server applications on my home server pc. Expect to find a few blog posts and guides surrounding any of these tools and languages!
+
+Outside of technology, you can expect to find me trying new coffees and brewing techniques with my buddy Lane (whose site you can find [[https://www.lanerj.com/home][here]]), watching horror movies (80's slashers are by far my favorite) or going on long walks near my apartment. Sometimes when you're stuck on a problem all you need is a breath of fresh air!
+
+* Certifications
+*** Security+
+*** AWS Certified Cloud Practioner (CCP)
+*** Network+ (in progress)
+
+* Work Experience
+*** Cyber Security Engineer (Intern) - /North Dakota Information Technology (NDIT)/
+- January 2023 - PRESENT
+- Cybersecurity engineering intern on the governance risk and compliance security team.
+*** Desktop Support Technician - /Ferris State University/
+- May 2021 - PRESENT
+- Troubleshooting and configuration of campus technologies and computer maintenance, including: Windows, Mac, Office 365, Active Directory, PrinterLogic, and Cherwell
+*** Teacher Assistant - /Ferris State University/
+- August 2022 - March 2022
+- Python Programming. For two semesters, hosted open labs and helped lead classes to provde assistance and additional instruction for students.
+*** Assistant Instructor - /ProKarate/
+- July 2014 - March 2020
+- Assistant Sensei teaching martial arts to adults and children.
+
+* Contact Information
+Feel free to reach out to me [at] tylerdback@pm.me if you have any questions about *nix, programming, technology, or just want to talk! Just make sure to mention you viewed my website, or I might mistake you for spam :)
+
+Check out my [[https://github.com/Tdback][github]]! There you'll find all my configuration files for my systems, and any current or past projects I've worked on.
+
+You can also find me on [[https://www.linkedin.com/in/tyler-dback/][LinkedIn]]! Feel free to follow me or send me a message, but again, make sure to mention that you viewed my site so I don't mistake you for spam :)
