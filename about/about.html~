@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About Me</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+<style type="text/css">.title {text-align: center;}</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">About Me</h1>
+<p>
+<i>Hi there fellow hackers!</i>
+</p>
+
+<p>
+My name is Tyler, but you'll usually find me going by my online handle: <i>Tdback</i>.
+</p>
+
+<p>
+A little about me: To start, I'm a Linux enthusiast and hobbyist programmer. When it comes to technology, I am very passionate about having complete control over your technology and the ability to customize every aspect of the technology you are using, whether it's a text editor or your operating system. I love exploring new technology, and can oftentimes be found tinkering with new software and breaking things in the Linux terminal.
+</p>
+
+<p>
+I'm an avid programmer, but moreso a scripter and *nix plumber. Most of what I write in nowadays comprises of hacky bash scripts, text processing with tools like sed, grep, and awk, and the occasional sprinkle of Python and Perl. When I'm not writing scripts to shave seconds of my workflow I can be found customizing my text editor of choice, Emacs. You can find several links to my Emacs configuration throughout the site, but for fun I can throw another one <a href="https://github.com/Tdback/Arch/blob/main/.emacs.d/Emacs.org">here</a>. In fact, this website was written using org-mode, an Emacs major mode for keeping notes, writing documents, and making statics websites! I also frequently use both Ansible and Docker, which are my tools of choice for automation and running server applications on my home server pc. Expect to find a few blog posts and guides surrounding any of these tools and languages!
+</p>
+
+<p>
+Outside of technology, you can expect to find me trying new coffees and brewing techniques with my buddy Lane (whose site you can find <a href="https://www.lanerj.com/home">here</a>), watching horror movies (80's slashers are by far my favorite) or going on long walks near my apartment. Sometimes when you're stuck on a problem all you need is a breath of fresh air!
+</p>
+
+<div id="outline-container-org2763cdd" class="outline-2">
+<h2 id="org2763cdd">Certifications</h2>
+<div class="outline-text-2" id="text-org2763cdd">
+</div>
+<div id="outline-container-org898e790" class="outline-4">
+<h4 id="org898e790">Security+</h4>
+</div>
+<div id="outline-container-orgb403556" class="outline-4">
+<h4 id="orgb403556">AWS Certified Cloud Practioner (CCP)</h4>
+</div>
+<div id="outline-container-org6fb62c8" class="outline-4">
+<h4 id="org6fb62c8">Network+ (in progress)</h4>
+</div>
+</div>
+
+<div id="outline-container-org4f27984" class="outline-2">
+<h2 id="org4f27984">Work Experience</h2>
+<div class="outline-text-2" id="text-org4f27984">
+</div>
+<div id="outline-container-orge67e09e" class="outline-4">
+<h4 id="orge67e09e">Cyber Security Engineer (Intern) - <i>North Dakota Information Technology (NDIT)</i></h4>
+<div class="outline-text-4" id="text-orge67e09e">
+<ul class="org-ul">
+<li>January 2023 - PRESENT</li>
+<li>Cybersecurity engineering intern on the governance risk and compliance security team.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd93e7a6" class="outline-4">
+<h4 id="orgd93e7a6">Desktop Support Technician - <i>Ferris State University</i></h4>
+<div class="outline-text-4" id="text-orgd93e7a6">
+<ul class="org-ul">
+<li>May 2021 - PRESENT</li>
+<li>Troubleshooting and configuration of campus technologies and computer maintenance, including: Windows, Mac, Office 365, Active Directory, PrinterLogic, and Cherwell</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8536ae4" class="outline-4">
+<h4 id="org8536ae4">Teacher Assistant - <i>Ferris State University</i></h4>
+<div class="outline-text-4" id="text-org8536ae4">
+<ul class="org-ul">
+<li>August 2022 - March 2022</li>
+<li>Python Programming. For two semesters, hosted open labs and helped lead classes to provde assistance and additional instruction for students.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org53eeda2" class="outline-4">
+<h4 id="org53eeda2">Assistant Instructor - <i>ProKarate</i></h4>
+<div class="outline-text-4" id="text-org53eeda2">
+<ul class="org-ul">
+<li>July 2014 - March 2020</li>
+<li>Assistant Sensei teaching martial arts to adults and children.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8912239" class="outline-2">
+<h2 id="org8912239">Contact Information</h2>
+<div class="outline-text-2" id="text-org8912239">
+<p>
+Feel free to reach out to me [at] tylerdback@pm.me if you have any questions about *nix, programming, technology, or just want to talk! Just make sure to mention you viewed my website, or I might mistake you for spam :)
+</p>
+
+<p>
+Check out my <a href="https://github.com/Tdback">github</a>! There you'll find all my configuration files for my systems, and any current or past projects I've worked on.
+</p>
+
+<p>
+You can also find me on <a href="https://www.linkedin.com/in/tyler-dback/">LinkedIn</a>! Feel free to follow me or send me a message, but again, make sure to mention that you viewed my site so I don't mistake you for spam :)
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
+</div>
+</body>
+</html>
