@@ -25,7 +25,7 @@ Outside of technology, you can expect to find me trying out new coffees and brew
 - Troubleshooting and configuration of campus technologies and computer maintenance, including: Windows, Mac, Office 365, Active Directory, PrinterLogic, and Cherwell
 *** Teacher Assistant - /Ferris State University/
 - August 2022 - March 2022
-- Python Programming. For two semesters, hosted open labs and helped lead classes to provde assistance and additional instruction for students.
+- Python Programming. For two semesters, hosted open labs and helped lead classes to provide assistance and additional instruction for students.
 *** Assistant Instructor - /ProKarate/
 - July 2014 - March 2020
 - Assistant Sensei teaching martial arts to adults and children.
