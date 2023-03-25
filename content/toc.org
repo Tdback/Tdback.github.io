@@ -3,7 +3,7 @@
 
 * [[./about/about.org][About]]
 
-* [[https://github.com/Tdback/Arch/blob/main/.emacs.d/Emacs.org][Emacs Configuration]]
+* [[./etc/config.org][Hardware and Configuration]]
 
 * [[./etc/toc.org][Tools and Guides]]
 
