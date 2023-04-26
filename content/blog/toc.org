@@ -3,3 +3,4 @@
 
 * [[./welcome.org][Welcome!]]
 * [[./whylinux.org][Why *nix?]]
+* [[./fish.org][Learning Fish]]
