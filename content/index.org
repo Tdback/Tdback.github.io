@@ -5,6 +5,5 @@ I'm Tyler, a scripter and computer enthusiast, and welcome to my site!
 
 Click [[./toc.org][here]] to go the the site's Table of Contents!
 
-Or, if you're wanting to learn more about *nix, programming, or other technologies, jump straight to the [[./etc/toc.org][Tools and Guides]] page!
+=NOTE=: /This site is currently a work in progress! As for the colorscheme, the custom HTML and CSS files are currently under development (many thanks to my best friend Alec for painstakingly working on making my website look pretty, you are all in for a real treat!). As of now, I highly recommend using DarkReader (or something similar) if you prefer a white on black colorscheme as opposed to the default. Changes may be frequent until the end of May. :)/
 
-=NOTE:= /This site is currently a work in progress. Changes in the layout and style may be frequent until the end of May./
