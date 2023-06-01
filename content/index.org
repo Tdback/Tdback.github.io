@@ -1,9 +1,20 @@
 #+TITLE: tylerdback.com
-#+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
+#+OPTIONS: title:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
+
+#+BEGIN_EXPORT html
+<div class="navigation">
+  <div class="logo"><img src="../images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/></div>
+  <div class="Menu">
+    <div class="button"><a href="blog.html">Blog</a></div>
+    <div class="button"><a href="guides.html">Tools and Guides</a></div>
+    <div class="button"><a href="config.html">Hardware and Configuration</a></div>
+    <div class="button"><a href="about.html">About</a></div>
+</div><h1 style="text-align: right; padding-top: 30px; font-size: 3vw; color: #CCCCCC; left: -130px; position: relative;">tylerdback.com</h1></div>
+#+END_EXPORT
 
 I'm Tyler, a scripter and computer enthusiast, and welcome to my site!
 
 Click [[./toc.org][here]] to go the the site's Table of Contents!
 
 =NOTE=: /This site is currently a work in progress! As for the colorscheme, the custom HTML and CSS files are currently under development (many thanks to my best friend Alec for painstakingly working on making my website look pretty, you are all in for a real treat!). As of now, I highly recommend using DarkReader (or something similar) if you prefer a white on black colorscheme as opposed to the default. Changes may be frequent until the end of May. :)/
-
