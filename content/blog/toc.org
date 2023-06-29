@@ -1,6 +1,0 @@
-#+TITLE: Tdback's Blog
-#+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
-
-* [[./welcome.org][Welcome!]]
-* [[./whylinux.org][Why *nix?]]
-* [[./fish.org][Learning Fish]]

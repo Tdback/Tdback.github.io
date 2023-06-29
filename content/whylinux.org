@@ -1,4 +1,20 @@
 #+TITLE: Why *nix?
+#+OPTIONS: title:nil
+
+#+BEGIN_EXPORT html
+<div class="navigation">
+  <div class="logo">
+    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+  </div>
+  <div class="Menu">
+    <h1> Why *nix? </h1>
+    <div class="button">
+      <a href="blog.html">Blog Home</a>
+    </div>
+  </div>
+</div>
+#+END_EXPORT
+
 Date: Mar 21, 2023
 
 As someone who daily drives Arch, a Linux "[[https://en.wikipedia.org/wiki/Linux_distribution][distro]]" notorious for its difficult installation, maintenance, and overall a less user-friendly experience than something like Ubuntu (Arch prides itself on being user-centric, very much so embracing a "Read the f***ing manual" philosophy), you might be surprised to know that I've only known about Linux for the past four years of my life. During my senior year of high school I took an AP Computer Science course. My teacher had a small Linux box in the corner of the classroom that students could freely use and mess around with. At the time I thought nothing of it, and continued to use my Windows laptop or desktop to complete my classwork, play videogames with friends, or just to browse the web. In fact, my first experience with actually "using" Linux was no more than three years ago, during my freshman year of college. One of my classes required me to install CentOS 7, a community-driven (and sadly now deprecated) distribution that tracked behind RHEL, or Red Hat Enterprise Linux. It was essentially the "free" version of RHEL, in comparison to the upstream source for RHEL, Fedora Linux. After fighting my way through the installation process in VMWare (which proved quite challenging for someone who's never used or even /heard/ of a virtual machine before) I was greeted by CentOS's desktop. To be honest, I wasn't really too impressed. I had seen and used a GUI before. I mean, most modern computers have them right? What's so cool about /this/ operating system? But then, following the steps in one of my labs, I was instructed to launch the terminal.

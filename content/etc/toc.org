@@ -1,8 +1,0 @@
-#+TITLE: Tools and Guides
-#+HTML_HEAD_EXTRA: <style type="text/css">.title {text-align: center;}</style>
-
-* Linux: 
-*** More Coming Soon...
-
-* Emacs:
-*** More Coming Soon...

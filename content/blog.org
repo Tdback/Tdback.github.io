@@ -1,0 +1,20 @@
+#+TITLE: Tdback's Blog
+#+OPTIONS: title:nil
+
+#+BEGIN_EXPORT html
+<div class="navigation">
+  <div class="logo">
+    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+  </div>
+  <div class="Menu">
+    <h1> Tyler's Blog </h1>
+    <div class="button">
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+</div>
+#+END_EXPORT
+
+* [[./welcome.org][Welcome!]]
+* [[./whylinux.org][Why *nix?]]
+* [[./fish.org][Learning Fish]]
