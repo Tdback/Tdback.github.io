@@ -20,7 +20,7 @@ Hey there, my name is Tyler "Tdback" Dunneback. I'm currently an IDAM intern at 
 
 I really enjoy using both Arch Linux and Emacs, and can be found spending time hacking on both regularly. In fact, this website was written using org-mode in Emacs!
 
-I really enjoy learning new programming languages, and have written projects in, or are currently using:
+I really enjoy learning new programming languages, and have written projects in, or am currently using:
 - OCaml
 - C
 - Lua
@@ -31,12 +31,13 @@ I really enjoy learning new programming languages, and have written projects in,
 
 If you're not a spammer, feel free to contact me!
 
-/Click on the block to code to run it in your browser:/
-
-#+begin_src shell
-
-  echo "dHlsZXJkYmFja0BwbS5tZQo=" | openssl base64 -d
-
-#+end_src
+/Click on the code to run it in your browser and decode my email address:/
+#+BEGIN_EXPORT html
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;dHlsZXJkYmFja0BwbS5tZQo=&#34;</span> | openssl base64 -d</span></span> </code></pre></div>
+</div>
+<script src="email.js"></script>
+#+END_EXPORT
 
 The wonderful CSS is brought to you by my best friend Alec "AlecGator" Lundy, so make sure to give him some love!
