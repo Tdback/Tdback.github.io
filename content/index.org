@@ -18,9 +18,7 @@
 
 Hey there, my name is Tyler "Tdback" Dunneback. I'm currently an IDAM intern at Zoetis, and live in the great state of Michigan, USA. 
 
-I really enjoy using both Arch Linux and Emacs, and can be found spending time hacking on both regularly. In fact, this website was written using org-mode in Emacs!
-
-I really enjoy learning new programming languages, and have written projects in, or am currently using:
+I really enjoy using both Arch Linux and Emacs, and can be found spending time hacking on both regularly. In fact, this website was written using org-mode in Emacs! I also really enjoy learning new programming languages, and have written projects in, or am currently using:
 - OCaml
 - C
 - Lua
