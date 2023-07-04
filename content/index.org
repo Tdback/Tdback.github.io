@@ -16,9 +16,27 @@
 #+END_EXPORT
 
 
-Hey there! My name is Tyler "Tdback" Dunneback, a computer enthusiast and Linux geek.
+Hey there, my name is Tyler "Tdback" Dunneback. I'm currently an IDAM intern at Zoetis, and live in the great state of Michigan, USA. 
 
-You somehow managed to  stumble across my site, which is currently undergoing a complete revamp! If you need to reach me, feel free to contact me [at] =tylerdback@pm.me=. 
+I really enjoy using both Arch Linux and Emacs, and can be found spending time hacking on both regularly. In fact, this website was written using org-mode in Emacs!
 
-PS. /The wonderful CSS is brought to you by my best friend Alec "AlecGator" Lundy, so make sure to give him some love!/
-/Hack away, hack away my friends!/
+I really enjoy learning new programming languages, and have written projects in, or are currently using:
+- OCaml
+- C
+- Lua
+- Python
+- PowerShell
+- Shell (Bash / Zsh / Fish)
+- Emacs Lisp
+
+If you're not a spammer, feel free to contact me!
+
+/Click on the block to code to run it in your browser:/
+
+#+begin_src shell
+
+  echo "dHlsZXJkYmFja0BwbS5tZQo=" | openssl base64 -d
+
+#+end_src
+
+The wonderful CSS is brought to you by my best friend Alec "AlecGator" Lundy, so make sure to give him some love!
