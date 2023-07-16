@@ -25,7 +25,7 @@ I really enjoy using both Linux and Emacs, and I often spending time hacking on 
 - Lua
 - Python
 - PowerShell
-- Shell (Bash / Zsh / Fish)
+- Shell (Bash / Zsh )
 - Emacs Lisp
 - Common Lisp
 
