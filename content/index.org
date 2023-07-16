@@ -18,7 +18,7 @@
 
 Hey there, my name is Tyler "Tdback" Dunneback. I'm currently an IDAM intern at Zoetis, and live in the great state of Michigan, USA.
 
-I really enjoy using both Linux and Emacs, and I often spending time hacking on both. In fact, I wrote this website using org-mode in Emacs! I also really enjoy learning new programming languages, and have written projects in, or am currently using:
+I really enjoy using both Linux and Emacs, and I often love spending time hacking on both. In fact, I wrote this website using org-mode in Emacs! I also really enjoy learning new programming languages, and have written projects in, or am currently using:
 - Go 
 - OCaml
 - C
@@ -29,7 +29,7 @@ I really enjoy using both Linux and Emacs, and I often spending time hacking on 
 - Emacs Lisp
 - Common Lisp
 
-I run both infrastructure at home and in the cloud. In both environments I utilize tools like Docker, Podman, and Ansible to automate the deployment and maintenance of several services that I use daily. I also have a strong passion for privacy, security, and the freedom of information. 
+I also run both infrastructure at home and in the cloud. In both environments I utilize tools like Docker, Podman, and Ansible to automate the deployment and maintenance of several services that I use daily. I also have a strong passion for privacy, security, and the freedom of information. 
 
 If you're not a spammer, feel free to contact me!
 
