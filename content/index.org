@@ -16,19 +16,19 @@
 #+END_EXPORT
 
 
-Hey there, my name is Tyler "Tdback" Dunneback. I'm currently an IDAM intern at Zoetis, and live in the great state of Michigan, USA.
+Hey there, my name is Tyler "Tdback" Dunneback. I currently work as an IDAM intern at Zoetis, and live in the great state of Michigan, USA.
 
-I really enjoy using both Linux and Emacs, and I love spending time hacking on both. In fact, I wrote this website using org-mode in Emacs! I also really enjoy learning new programming languages, and have written projects in, or am currently using:
-- Emacs Lisp
-- Common Lisp
-- Go 
+I really enjoy using both Linux and Emacs, and I love spending time hacking on both. In fact, I wrote and published this website using org-mode in Emacs (and a little help from GitHub)! I also really enjoy learning new programming languages, and have written projects in, or am currently using:
 - C
+- Emacs Lisp
+- Go 
 - Lua
-- Python
+- OCaml
+- POSIX Shell / Bash
 - PowerShell
-- Shell (Bash || Zsh)
+- Python
 
-I also run both infrastructure at home and in the cloud. In both environments I utilize tools like Docker, Podman, and Ansible to automate the deployment and maintenance of several services that I use daily. I also have a strong passion for privacy, security, and the freedom of information. 
+Aside from programming, I also run infrastructure at home and in the cloud. In both environments I utilize tools like Docker, Podman, and Ansible to automate the deployment and maintenance of several services that I use daily. I also have a strong passion for privacy, security, and the freedom of information. 
 
 If you're not a spammer, feel free to contact me!
 
