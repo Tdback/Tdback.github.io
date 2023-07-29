@@ -142,22 +142,34 @@ code {
   
   h2, h3, h4 {
     padding-left: 0;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   ul, ol {
     padding-left: 10px;
-    font-size: 16px;
+  }
+
+  li {
+    font-size: 18px;
   }
   
   p {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  a {
+    color: #eda926;
+    font-size: 24px;
   }
   
+  code {
+    color: palevioletred;
+    font-size: 18px;
+  }
+
   .src-shell {
     padding-left: 10px;
-    font-size: 16px;
   }
 }
