@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Learn Tar</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="content">
+<div class="navigation">
+  <div class="logo">
+    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+  </div>
+  <div class="Menu">
+    <h1> Learn tar </h1>
+    <div class="button">
+      <a href="blog.html">Blog Home</a>
+    </div>
+  </div>
+</div>
+
+<p>
+Date: Sat, Jul 29 2023
+</p>
+
+<p>
+It's recently come to my attention that many of my peers in my university's cyber-security program are unfamiliar with the <code>tar</code> command available on Linux, BSD, and Unix systems. I made this discovery shortly after sharing comic 1168 from <a href="https://xkcd.com/">xkcd</a> to the program's Discord channel.
+</p>
+
+<p>
+Here's the comic:
+</p>
+
+
+<div class="figure">
+<p><img src="./images/tar.png" alt="tar.png" />
+</p>
+</div>
+
+<p>
+For those unfamiliar with the <code>tar</code> command, the idea of the joke here is that the command has oftentimes complex syntax. Let me give you an example:
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+XZ_OPT='-T4' tar cvJf my_files.tar.xz my_files/
+</code></pre></div>
+</div>
+
+<p>
+If you just read that and have no idea what any of it meant, you're in the right place. It's time you learn about <code>tar</code>!
+</p>
+
+<p>
+Simply put, <code>tar</code> is <b>the</b> archiving utility for Unix-based systems. <code>tar</code> stands for "tape archive" and was designed to store multiple files in a single file (known as an "archive" or "tarball"), and to manipulate such archives.
+</p>
+
+<p>
+There is an important distinction to make here: creating an archive with <code>tar</code> is <b>not</b> the same as compressing a file with a compression utility such as <code>gzip</code> or <code>xz</code>. <code>tar</code> simply collects a group of files, for example several directories and their contents, and creates an archive. In fact, if you looked at the size of the resulting archive, or tarball, it would be close to (if not exactly) the same number of bytes as the sum of all the files you created the archive from.
+</p>
+
+<p>
+But why does this distinction matter? <code>tar</code> in fact has built-in support for compressing your archives, and by using additional flags (or command-line arguments) the user can compress an archive of hundreds to thousands of directories in a single command, resulting in a compressed archive a 10th of the size of the original archive! The resulting size is of course dependent on the compression method you're using, but that's beyond the scope of this discussion. This makes <code>tar</code> perfect for storing backups, sending large quantities of files to colleagues, and more!
+</p>
+
+<p>
+Let's explore some simple examples you may encounter in your everyday use!
+</p>
+
+<p>
+In the following scenario, we want to send a directory containing several documents to our friends. First we'll create our archive!
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar cf my_files.tar my_files/
+</code></pre></div>
+</div>
+
+<p>
+Let's break this command down:
+</p>
+
+<p>
+Our command begins with calling the <code>tar</code> program. We then pass our command-line options, <code>c</code> and <code>f</code>, telling <code>tar</code> that we want to <b>create</b> a new tar archive and that the following string is the archive we want to create, in this case <code>my_files.tar</code>. Then we pass in the directory of files we want to create an archive from, <code>my_files/</code>.
+</p>
+
+<p>
+It is important to note that we could have passed our command-line arguments to <code>tar</code> in several ways:
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar -cf my_files.tar my_files/
+</code></pre></div>
+</div>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar -c -f my_files.tar my_files/
+</code></pre></div>
+</div>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar --create --file my_files.tar my_files/
+</code></pre></div>
+</div>
+
+<p>
+All four commands produce the same result, and the differences are simply available due to POSIX compliance and GNU standards. It is entirely up to the user on how they want to pass arguments, but the differences <b>do</b> matter when using tar within shell scripts. For the rest of the examples we'll stick to the style used in the original example.
+</p>
+
+<p>
+Running our command resulted in an archive <code>my_files.tar</code>, which we can send to our friends! But wait a minute, why would we send them an archive if it's the same size as just sending all of the files individually? We need compression!
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar cvzf my_files.tar.gz my_files/
+</code></pre></div>
+</div>
+
+<p>
+The keen of eye will notice that we've passed in two more arguments when calling <code>tar</code> to create our compressed archive. <code>v</code>, or <code>--verbose</code> increases the "verbosity" of the tar command, and prints out to the terminal what files it's adding to the archive. We could have also used <code>v</code> in our original example to see exactly what files were being added to our archive. To compress the archive we use the <code>z</code>, or <code>--gzip</code>, flag, which tells tar to use the <code>gzip</code> utility to compress the tarball. This is also why we named our resulting file <code>my_files.tar.gz</code> to indicate that we created a compressed tarball (several other extensions are also supported, for example <code>.tgz</code>). We could have instead used <code>J</code> to create a compressed tarball using the <code>xz</code> utility, another compression tool, but for simplicity's sake we'll stick to using <code>gzip</code>.
+</p>
+
+<p>
+Perfect! Now we have a compressed tarball containing all the documents we want to send to our friends! We upload it to the server using <code>rsync</code> and wait for our friends to pull down the documents. You sign out of your computer and head to bed for the night. 
+</p>
+
+<p>
+A few hours pass and our friends go to pull down the compressed tarball from the server. However, they notice that there's two similarly named files: <code>my_files.tar.gz</code> and <code>files.tar.gz</code>. You forgot to tell them the filename, so how will they know which one contains the documents? Your friends don't want to extract both archives, because one of them could contain thousands of directories and files. Lucky for them, <code>tar</code> has built-in support for viewing the contents of a compressed tarball. Pretty awesome, right?
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar tvf my_files.tar.gz 
+</code></pre></div>
+</div>
+
+<p>
+Here, we use <code>t</code>, or <code>--test-label</code> to test the archive volume label and exit. Unlike before, where <code>v</code> was optional to let us get a better idea of what files were being added to the archive, <code>v</code> is required if we want to see what files are inside the compressed tarball. Using this command, your friends are able to see that <code>my_files.tar.gz</code> contains all the documents you wanted to send to them. Let's decompress and extract the archive!
+</p>
+
+<p>
+You'll notice here that I said decompress <b>and</b> extract. Remember: <code>tar</code> at its simplest form creates an archive of files, which is different than compression. To extract a simple tarball similar to what we created in the first example we can run the following:
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar xvf my_files.tar
+</code></pre></div>
+</div>
+
+<p>
+<code>x</code>, or <code>--extract</code> or <code>--get</code>, is used to extract the contents of the tarball. Again, <code>v</code> is not necessary here. It is simply used for extra verbosity when the <code>tar</code> command runs. This command creates the <code>my_files/</code> directory in the user's current directory, containing the contents we had added to the archive in the first example. But we compressed our archive before sending it to our friends, meaning they need to decompress the archive before extracting its contents. <code>tar</code> is actually smart enough to recognize that the tarball is compressed, and simply running the same command on <code>my_files.tar.gz</code> will both decompress and extract the archive. However, there is a more "appropriate" way to decompress and extract this archive:
+</p>
+
+<div class="src src-shell">
+  <div class="highlight">
+    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+tar xzvf my_files.tar
+</code></pre></div>
+</div>
+
+<p>
+Similar to when we created the <code>gzip</code> archive, we can use <code>z</code> (<code>--gunzip</code> in this example) alongside <code>x</code> to decompress and extract the file's contents. Now your friends can access the documents you wanted to send them!
+</p>
+
+<p>
+These examples were not to serve as a holistic guide to <code>tar</code>: there are still various flags that I have yet to mention. If you're curious to learn more about <code>tar</code>, I highly suggest you read through the <code>man</code> and <code>info</code> pages on your Unix-based system. Although you didn't learn everything that <code>tar</code> has to offer, reading through this guide should have given you enough knowledge to add <code>tar</code> to your terminal toolbox for everyday use. And unlike Rob, you might even save the world someday :)
+</p>
+
+<p>
+Hack away, hack away my friends. 
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.3)</p>
+</div>
+</body>
+</html>
