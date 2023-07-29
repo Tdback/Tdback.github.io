@@ -22,8 +22,8 @@ It's recently come to my attention that many of my peers in my university's cybe
 Here's the comic:
 
 #+BEGIN_EXPORT html
-<div style="padding-left: 20%">
-  <img src="images/tar.png" width="auto" height="150px" alt="Comic 1168"/>
+<div style="padding-left: 15%">
+  <img src="images/tar.png" width="70%" height="200px" alt="Comic 1168"/>
 </div>
 #+END_EXPORT
 
