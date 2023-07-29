@@ -126,9 +126,32 @@ code {
   padding-left: 450px;
 }
 
-@media screen and (max-width: 600px) {
-  .col-1, .col-2, input[type=submit] {
-    width: 100%; margin-top: 0;
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .logo {
+    padding: 10px;
+  }
+  
+  .Menu {
+    padding-top: 10px;
+    align-items: center;
+  }
+  
+  h2, h3, h4 {
+    padding-left: 0;
+  }
+  
+  ul, ol {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .src-shell {
+    padding-left: 10px;
   }
 }
-
