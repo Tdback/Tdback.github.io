@@ -21,7 +21,11 @@ It's recently come to my attention that many of my peers in my university's cybe
 
 Here's the comic:
 
-[[./images/tar.png]]
+#+BEGIN_EXPORT html
+<div style="padding-left: 20%">
+  <img src="images/tar.png" width="auto" height="150px" alt="Comic 1168"/>
+</div>
+#+END_EXPORT
 
 For those unfamiliar with the =tar= command, the idea of the joke here is that the command has oftentimes complex syntax. Let me give you an example:
 
