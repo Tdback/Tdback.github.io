@@ -16,3 +16,5 @@
 #+END_EXPORT
 
 * [[./reboot.org][Reboot]]
+
+* [[./tar_saves_lives.org][Learn tar, Save Lives]]
