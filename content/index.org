@@ -19,10 +19,12 @@
 Hey there, my name is Tyler "Tdback" Dunneback. This website is currently undergoing some changes, but don't let that stop you from reading onward!
 
 I really enjoy using both Linux and Vim, and I love spending time hacking on both. In fact, I've even started my own [[https://www.youtube.com/@TylerDunneback/][YouTube]] channel to teach others more about Linux. I also really enjoy learning new programming languages, and have written projects in, or am currently using:
-- Emacs Lisp
+- Ansible
+- Emacs && Common Lisp
 - Go
+- Java
 - Lua
-- POSIX Shell / Bash
+- POSIX Shell && Bash
 - PowerShell
 - Python
 
