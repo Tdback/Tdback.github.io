@@ -15,21 +15,26 @@
 </div>
 #+END_EXPORT
 
+* Hello, world
 
-Hey there, my name is Tyler "Tdback" Dunneback. This website is currently undergoing some changes, but don't let that stop you from reading onward!
+Greetings, my name is Tyler "Tdback" Dunneback.
 
-I really enjoy using both Linux and Vim, and I love spending time hacking on both. In fact, I've even started my own [[https://www.youtube.com/@TylerDunneback/][YouTube]] channel to teach others more about Linux. I also really enjoy learning new programming languages, and have written projects in, or am currently using:
-- Ansible
-- Emacs && Common Lisp
-- Go
-- Java
-- Lua
-- POSIX Shell && Bash
-- PowerShell
+** A Little Bit About Me
+First and foremost, I love all things Linux, automation, and open source!
+I am also a strong advocate for the right to privacy and security. I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from network and cloud security to AI model design and development.
+
+I love to script and can often be found hacking away in the following languages:
+- POSIX Shell & Bash
 - Python
+- PowerShell
 
-Aside from programming, I also run infrastructure at home and in the cloud. In both environments I utilize tools like Docker, Podman, and Ansible to automate the deployment and maintenance of several services that I use daily. I also have a strong passion for privacy, security, and the freedom of information.
+Occasionally I may sprinkle in a few other languages here and there, as learning them is half the fun!
 
+I also love to run my own infrastructure both at home and in the cloud. This is made possible with tools such as [[https://www.docker.com/][Docker]], [[https://podman.io/][Podman]], [[https://www.ansible.com/][Ansible]], and [[https://opentofu.org/][OpenTofu]].
+
+When away from my keyboard, I enjoy spending time with my wife and our labrador "Captain".
+
+** Contact
 If you're not a spammer, feel free to contact me by email or follow me on [[https://github.com/Tdback/][GitHub]]!
 
 /Click on the code to run it in your browser and decode my email address:/
@@ -41,4 +46,5 @@ If you're not a spammer, feel free to contact me by email or follow me on [[http
 <script src="email.js"></script>
 #+END_EXPORT
 
-CSS is courtesy of my best friend Alec "AlecGator" Lundy.
+*** Acknowledgements
+CSS is courtesy of my best friend Alec "AlecGator" Lundy. This site was build using Emacs ( but written using Vim ;) ), and is hosted freely on GitHub.
