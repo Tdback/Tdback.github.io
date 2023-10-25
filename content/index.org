@@ -31,7 +31,6 @@ I also love to run my own infrastructure both at home and in the cloud. This is 
 
 When away from my keyboard, I enjoy spending time with my wife and our labrador "Captain".
 
-** Contact
 If you're not a spammer, feel free to contact me by email or follow me on [[https://github.com/Tdback/][GitHub]]!
 
 /Click on the code to run it in your browser and decode my email address:/
