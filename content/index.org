@@ -15,11 +15,8 @@
 </div>
 #+END_EXPORT
 
-* Hello, world
-
 Greetings, my name is Tyler "Tdback" Dunneback.
 
-** A Little Bit About Me
 First and foremost, I love all things Linux, automation, and open source!
 I am also a strong advocate for the right to privacy and security. I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from network and cloud security to AI model design and development.
 
@@ -46,5 +43,4 @@ If you're not a spammer, feel free to contact me by email or follow me on [[http
 <script src="email.js"></script>
 #+END_EXPORT
 
-*** Acknowledgements
 CSS is courtesy of my best friend Alec "AlecGator" Lundy. This site was build using Emacs ( but written using Vim ;) ), and is hosted freely on GitHub.
