@@ -15,7 +15,7 @@
 </div>
 #+END_EXPORT
 
-Greetings, my name is Tyler "Tdback" Dunneback.
+Hey there, my name is Tyler "Tdback" Dunneback.
 
 First and foremost, I love all things Linux, automation, and open source!
 I am also a strong advocate for the right to privacy and security.
@@ -44,4 +44,4 @@ If you're not a spammer, feel free to contact me by email or follow me on [[http
 <script src="email.js"></script>
 #+END_EXPORT
 
-CSS is courtesy of my best friend Alec "AlecGator" Lundy. This site is hosted freely on [[https://github.com/Tdback/Tdback.github.io][GitHub].
+CSS is courtesy of my best friend Alec "AlecGator" Lundy. The fish is courtesy of Microsoft's [[https://www.bing.com/images/create][Image Creator]].
