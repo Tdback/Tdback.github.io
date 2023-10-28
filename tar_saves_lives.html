@@ -13,7 +13,7 @@
 <div id="content">
 <div class="navigation">
   <div class="logo">
-    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+    <img src="images/legominifig.jpeg" width="auto" height="150px" alt="Tylerdback Coding"/>
   </div>
   <div class="Menu">
     <h1> Learn tar </h1>
@@ -45,7 +45,7 @@ For those unfamiliar with the <code>tar</code> command, the idea of the joke her
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 XZ_OPT='-T4' tar cvJf my_files.tar.xz my_files/
 </code></pre></div>
 </div>
@@ -76,7 +76,7 @@ In the following scenario, we want to send a directory containing several docume
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar cf my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -95,21 +95,21 @@ It is important to note that we could have passed our command-line arguments to 
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar -cf my_files.tar my_files/
 </code></pre></div>
 </div>
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar -c -f my_files.tar my_files/
 </code></pre></div>
 </div>
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar --create --file my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -124,7 +124,7 @@ Running our command resulted in an archive <code>my_files.tar</code>, which we c
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar cvzf my_files.tar.gz my_files/
 </code></pre></div>
 </div>
@@ -134,7 +134,7 @@ The keen of eye will notice that we've passed in two more arguments when calling
 </p>
 
 <p>
-Perfect! Now we have a compressed tarball containing all the documents we want to send to our friends! We upload it to the server using <code>rsync</code> and wait for our friends to pull down the documents. You sign out of your computer and head to bed for the night. 
+Perfect! Now we have a compressed tarball containing all the documents we want to send to our friends! We upload it to the server using <code>rsync</code> and wait for our friends to pull down the documents. You sign out of your computer and head to bed for the night.
 </p>
 
 <p>
@@ -143,8 +143,8 @@ A few hours pass and our friends go to pull down the compressed tarball from the
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
-tar tvf my_files.tar.gz 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
+tar tvf my_files.tar.gz
 </code></pre></div>
 </div>
 
@@ -158,7 +158,7 @@ You'll notice here that I said decompress <b>and</b> extract. Remember: <code>ta
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar xvf my_files.tar
 </code></pre></div>
 </div>
@@ -169,7 +169,7 @@ tar xvf my_files.tar
 
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar xzvf my_files.tar
 </code></pre></div>
 </div>
@@ -183,7 +183,7 @@ These examples were not to serve as a holistic guide to <code>tar</code>: there 
 </p>
 
 <p>
-Hack away, hack away my friends. 
+Hack away, hack away my friends.
 </p>
 </div>
 <div id="postamble" class="status">
