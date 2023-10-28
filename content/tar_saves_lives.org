@@ -4,7 +4,7 @@
 #+BEGIN_EXPORT html
 <div class="navigation">
   <div class="logo">
-    <img src="images/legominifig.jpeg" width="auto" height="150px" alt="Tylerdback Coding"/>
+    <img src="images/legominifig.png" width="auto" height="150px" alt="Tylerdback Coding"/>
   </div>
   <div class="Menu">
     <h1> Learn tar </h1>
