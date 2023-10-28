@@ -4,7 +4,7 @@
 #+BEGIN_EXPORT html
 <div class="navigation">
   <div class="logo">
-    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+    <img src="images/legominifig.jpeg" width="auto" height="150px" alt="Tylerdback Coding"/>
   </div>
   <div class="Menu">
     <h1> tylerdback.com </h1>
@@ -44,4 +44,4 @@ If you're not a spammer, feel free to contact me by email or follow me on [[http
 <script src="email.js"></script>
 #+END_EXPORT
 
-CSS is courtesy of my best friend Alec "AlecGator" Lundy. The fish is courtesy of Microsoft's [[https://www.bing.com/images/create][Image Creator]].
+CSS is courtesy of my best friend Alec "AlecGator" Lundy. The lego minifig is courtesy of Microsoft's [[https://www.bing.com/images/create][Image Creator]].

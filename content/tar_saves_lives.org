@@ -4,7 +4,7 @@
 #+BEGIN_EXPORT html
 <div class="navigation">
   <div class="logo">
-    <img src="images/IMG_5575.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+    <img src="images/legominifig.jpeg" width="auto" height="150px" alt="Tylerdback Coding"/>
   </div>
   <div class="Menu">
     <h1> Learn tar </h1>
@@ -32,7 +32,7 @@ For those unfamiliar with the =tar= command, the idea of the joke here is that t
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 XZ_OPT='-T4' tar cvJf my_files.tar.xz my_files/
 </code></pre></div>
 </div>
@@ -53,7 +53,7 @@ In the following scenario, we want to send a directory containing several docume
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar cf my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -68,7 +68,7 @@ It is important to note that we could have passed our command-line arguments to 
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar -cf my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -77,7 +77,7 @@ tar -cf my_files.tar my_files/
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar -c -f my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -86,7 +86,7 @@ tar -c -f my_files.tar my_files/
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar --create --file my_files.tar my_files/
 </code></pre></div>
 </div>
@@ -99,7 +99,7 @@ Running our command resulted in an archive =my_files.tar=, which we can send to 
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar cvzf my_files.tar.gz my_files/
 </code></pre></div>
 </div>
@@ -107,15 +107,15 @@ tar cvzf my_files.tar.gz my_files/
 
 The keen of eye will notice that we've passed in two more arguments when calling =tar= to create our compressed archive. =v=, or =--verbose= increases the "verbosity" of the tar command, and prints out to the terminal what files it's adding to the archive. We could have also used =v= in our original example to see exactly what files were being added to our archive. To compress the archive we use the =z=, or =--gzip=, flag, which tells tar to use the =gzip= utility to compress the tarball. This is also why we named our resulting file =my_files.tar.gz= to indicate that we created a compressed tarball (several other extensions are also supported, for example =.tgz=). We could have instead used =J= to create a compressed tarball using the =xz= utility, another compression tool, but for simplicity's sake we'll stick to using =gzip=.
 
-Perfect! Now we have a compressed tarball containing all the documents we want to send to our friends! We upload it to the server using =rsync= and wait for our friends to pull down the documents. You sign out of your computer and head to bed for the night. 
+Perfect! Now we have a compressed tarball containing all the documents we want to send to our friends! We upload it to the server using =rsync= and wait for our friends to pull down the documents. You sign out of your computer and head to bed for the night.
 
 A few hours pass and our friends go to pull down the compressed tarball from the server. However, they notice that there's two similarly named files: =my_files.tar.gz= and =files.tar.gz=. You forgot to tell them the filename, so how will they know which one contains the documents? Your friends don't want to extract both archives, because one of them could contain thousands of directories and files. Lucky for them, =tar= has built-in support for viewing the contents of a compressed tarball. Pretty awesome, right?
 
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
-tar tvf my_files.tar.gz 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
+tar tvf my_files.tar.gz
 </code></pre></div>
 </div>
 #+END_EXPORT
@@ -127,7 +127,7 @@ You'll notice here that I said decompress *and* extract. Remember: =tar= at its 
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar xvf my_files.tar
 </code></pre></div>
 </div>
@@ -138,7 +138,7 @@ tar xvf my_files.tar
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    <code class="language-shell" data-lang="shell"><span style="display:flex;"> 
+    <code class="language-shell" data-lang="shell"><span style="display:flex;">
 tar xzvf my_files.tar
 </code></pre></div>
 </div>
@@ -148,6 +148,6 @@ Similar to when we created the =gzip= archive, we can use =z= (=--gunzip= in thi
 
 These examples were not to serve as a holistic guide to =tar=: there are still various flags that I have yet to mention. If you're curious to learn more about =tar=, I highly suggest you read through the =man= and =info= pages on your Unix-based system. Although you didn't learn everything that =tar= has to offer, reading through this guide should have given you enough knowledge to add =tar= to your terminal toolbox for everyday use. And unlike Rob, you might even save the world someday :)
 
-Hack away, hack away my friends. 
+Hack away, hack away my friends.
 
 
