@@ -17,7 +17,9 @@
 
 Hey there, my name is Tyler "Tdback" Dunneback.
 
-First and foremost, I love all things Linux, automation, and open source!
+I'm a PowerShell addict and Linux enthusiast, automating the world one script at a time!
+
+I love all things to do with Linux, automation, and open source!
 I am also a strong advocate for the right to privacy and security.
 
 I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from network and cloud security to AI model design and development.
@@ -25,11 +27,11 @@ I am currently in my final semester of university, pursuing a Bachelor's degree 
 I love to script and can often be found hacking away in the following languages:
 - POSIX Shell & Bash
 - Python
-- PowerShell
+- PowerShell (Core)
 
 Occasionally I may sprinkle in a few other languages here and there, as learning them is half the fun!
 
-I also love to run my own infrastructure both at home and in the cloud. This is made possible with tools such as [[https://www.docker.com/][Docker]], [[https://podman.io/][Podman]], [[https://www.ansible.com/][Ansible]], and [[https://opentofu.org/][OpenTofu]].
+I also love to run my own infrastructure both at home and in the cloud. This is done with several infrastructure as code (IaC) tools such as [[https://www.docker.com/][Docker]], [[https://podman.io/][Podman]], [[https://www.ansible.com/][Ansible]], and [[https://opentofu.org/][OpenTofu]].
 
 When away from my keyboard, I enjoy spending time with my wife and our labrador "Captain".
 
