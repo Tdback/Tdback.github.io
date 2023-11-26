@@ -11,6 +11,9 @@
     <div class="button">
       <a href="index.html">Home</a>
     </div>
+    <div class="button">
+      <a href="toolbox.html">Toolbox</a>
+    </div>
   </div>
 </div>
 #+END_EXPORT
