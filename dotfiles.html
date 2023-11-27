@@ -65,16 +65,16 @@ Want to run Arch yourself, but you're worried about losing your files after a ba
 <div class="src src-shell">
   <div class="highlight">
     <code class="language-shell" data-lang="shell">
-      <code>#!/usr/bin/env sh</code><br/>
+      <code>#!/usr/bin/env sh</code><br/><br/>
 
-      # Backup all home directory files, but don't include my external drive<br/>
+      <code style="color:white"># Backup all home directory files, but don't include my external drive</code><br/>
       <code>rsync --archive --quiet --delete --rsh='ssh -i /root/.ssh/backup -p 9999' \</code><br/>
-      <code>      --exclude='Media/' root@arch.box:/home/td/ /home/td/backups/arch</code><br/>
+      <code>      --exclude='Media/' root@arch.box:/home/td/ /home/td/backups/arch</code><br/><br/>
 
-      # Change access permissions from `root' to `td' user on Debian box<br/>
-      <code>chown td:sudo --recursive /home/td/backups/arch</code><br/>
+      <code style="color:white"># Change access permissions from `root' to `td' user on Debian box</code><br/>
+      <code>chown td:sudo --recursive /home/td/backups/arch</code><br/>br/>
 
-      # Don't forget to log :)<br/>
+      <code style="color:white"># Don't forget to log :)</code><br/>
       <code>echo rsync job completed: $(date) >> /home/td/rsync_job.log</code><br/>
     </code>
   </div>
