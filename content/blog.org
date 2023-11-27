@@ -7,7 +7,7 @@
     <img src="images/legominifig.png" width="auto" height="150px" alt="Tylerdback Coding"/>
   </div>
   <div class="Menu">
-    <h1> Tyler's Blog </h1>
+    <h1> My Blog </h1>
     <div class="button">
       <a href="index.html">Home</a>
     </div>
