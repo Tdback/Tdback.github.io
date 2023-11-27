@@ -39,7 +39,9 @@ I wrote a set of <a href="https://ansible.com">Ansible</a> plays to manage the v
 </p>
 
 <div class="src src-shell">
-  ansible-playbook run.yaml --ask-become-pass
+  <div class="highlight">
+    ansible-playbook run.yaml --ask-become-pass
+  </div>
 </div>
 
 <p>
@@ -72,7 +74,7 @@ Want to run Arch yourself, but you're worried about losing your files after a ba
       <code>      --exclude='Media/' root@arch.box:/home/td/ /home/td/backups/arch</code><br/><br/>
 
       <code style="color:white"># Change access permissions from `root' to `td' user on Debian box</code><br/>
-      <code>chown td:sudo --recursive /home/td/backups/arch</code><br/>br/>
+      <code>chown td:sudo --recursive /home/td/backups/arch</code><br/><br/>
 
       <code style="color:white"># Don't forget to log :)</code><br/>
       <code>echo rsync job completed: $(date) >> /home/td/rsync_job.log</code><br/>
