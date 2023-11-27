@@ -1,0 +1,8 @@
+#+TITLE: Captain!
+#+OPTIONS: title:nil
+
+#+BEGIN_EXPORT html
+<div>
+  <img src="images/captain.png" width="100%" height="100%" alt="My dog"/>
+</div>
+#+END_EXPORT

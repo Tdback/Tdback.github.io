@@ -12,7 +12,7 @@
       <a href="blog.html">My Blog</a>
     </div>
     <div class="button">
-      <a href="toolbox.html">Toolbox</a>
+      <a href="dotfiles.html">Dotfiles</a>
     </div>
   </div>
 </div>
@@ -20,28 +20,21 @@
 
 Hey there, my name is Tyler "Tdback" Dunneback.
 
-I'm an avid scripter and Linux enthusiast, automating the world one script at a time!
+Here's a little bit about me...
+
 I'm a firm believer in the phrase "Automate any job you do more than once". Life is too short to manually backup your files every night, so write a script do it for you!
 
-I love all things to do with Linux, automation, and open source!
-I am also a strong advocate for the right to privacy and security.
+I love all things to do with Linux, automation, and open source. In fact, this website is open source and freely hosted on GitHub! You can view all the code I use to build it [[https://github.com/Tdback/Tdback.github.io][here]].
 
-I also love computer and programming language history! Some of my favorites are Lisp (Common Lisp and Scheme), technology and protocols like IRC, and of course classic games like Quake and Super Mario Brothers!
+I love computer and programming language history! Some of my favorite topics include studying Lisp (Common Lisp and Scheme), technology and protocols like IRC, and of course classic games like Quake and Super Mario Brothers!
 
-I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from network and cloud security to AI model design and development.
+I am also a strong advocate for the right to privacy and security. 
 
-Curious about the tools I love to use? Check out my [[file:toolbox.org][toolbox]]! (include languages, IaC, etc. on separate page)
+When away from my keyboard, I enjoy spending time with my wife and our Labrador "[[file:captain.org][Captain]]".
 
-I love to script and can often be found hacking away in the following languages:
-- POSIX Shell & Bash
-- Python
-- PowerShell (Core)
+I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from system, network, and cloud security to AI model design and development.
 
-Occasionally I may sprinkle in a few other languages here and there, as learning them is half the fun!
-
-I also love to run my own infrastructure both at home and in the cloud. This is done with several infrastructure as code (IaC) tools such as [[https://www.docker.com/][Docker]], [[https://podman.io/][Podman]], [[https://www.ansible.com/][Ansible]], and [[https://opentofu.org/][OpenTofu]].
-
-When away from my keyboard, I enjoy spending time with my wife and our Labrador "Captain".
+Curious about my workflow or the tools I love to use? Check out my [[file:dotfiles.org][dotfiles]]! 
 
 Feel free to contact me by email or follow me on [[https://github.com/Tdback/][GitHub]]!
 

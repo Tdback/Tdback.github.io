@@ -146,7 +146,7 @@ tar xzvf my_files.tar
 
 Similar to when we created the =gzip= archive, we can use =z= (=--gunzip= in this example) alongside =x= to decompress and extract the file's contents. Now your friends can access the documents you wanted to send them!
 
-These examples were not to serve as a holistic guide to =tar=: there are still various flags that I have yet to mention. If you're curious to learn more about =tar=, I highly suggest you read through the =man= and =info= pages on your Unix-based system. Although you didn't learn everything that =tar= has to offer, reading through this guide should have given you enough knowledge to add =tar= to your terminal toolbox for everyday use. And unlike Rob, you might even save the world someday :)
+These examples were not to serve as a holistic guide to =tar=: there are still various flags that I have yet to mention. If you're curious to learn more about =tar=, I highly suggest you read through the =man= and =info= pages on your Unix-based system. Although you didn't learn everything that =tar= has to offer, reading through this guide should have given you enough knowledge to add =tar= to your terminal dotfiles for everyday use. And unlike Rob, you might even save the world someday :)
 
 Hack away, hack away my friends.
 

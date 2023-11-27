@@ -1,0 +1,65 @@
+#+TITLE: tylerdback.com - Dotfiles
+#+OPTIONS: title:nil
+
+#+BEGIN_EXPORT html
+<div class="navigation">
+  <div class="logo">
+    <img src="images/legominifig.png" width="auto" height="150px" alt="Tylerdback Coding"/>
+  </div>
+  <div class="Menu">
+    <h1> Tyler's Dotfiles </h1>
+    <div class="button">
+      <a href="index.html">Home</a>
+    </div>
+    <div class="button">
+      <a href="blog.html">My Blog</a>
+    </div>
+  </div>
+</div>
+#+END_EXPORT
+
+Welcome to my dotfiles!
+
+For day-to-day computing, I run [[https://archlinux.org][Arch Linux]] on my home desktop. Not only does it keep me up to date with the latest packages, but it has taught me a thing or two about maintaining my system and keeping up to speed with the latest news and system changes.
+
+I wrote a set of [[https://ansible.com][Ansible]] plays to manage the various configuration files on my system. This allows me to install all of the necessary packages and set up symlinks for all of my dotfiles using a single command:
+
+#+begin_src shell
+
+  ansible-playbook run.yaml --ask-become-pass
+  
+#+end_src
+
+When it comes to my general workflow, I like to keep things as minimal as possible. I use a single screen with rarely more than one buffer or window up at a time. [[https://github.com/baskerville/bspwm][Bspwm]] and [[https://github.com/baskerville/sxhkd][Sxhkd]], a tiling window manager and hotkey daemon, allow me to seamlessly switch between applications such as [[https://gnu.org/software/emacs][GNU Emacs]] or my browser with minimal effort. This eliminates the need to have two unrelated things visible on the screen at one time, allowing me to focus better on the current task at hand. 
+
+I only like to display a minimal amount of information in Emacs, [[https://github.com/tmux/tmux/][Tmux]], or [[https://github.com/polybar/polybar][Polybar]], such as the current workspace, buffer, or system volume and date/time. 
+
+When it comes to using my computer, I prefer tools that enable me to control everything primarily with the keyboard. When you work with words and code all day, reaching for the mouse takes your focus away from the screen and slows you down. Using Emacs, Tmux, or Sxhkd allows me to create my own custom, consistent key bindings to control nearly every aspect of my desktop; pair that with a terminal emulator such as Kitty and the only time you may find me reaching for a mouse is to browse the web or play a video game. 
+
+I *really* do not like using programs that don't support text-based configuration files. Moreover, I prefer to avoid tools that write these configuration files for me. This encourages me to learn more about the application and commit my custom-written configuration to source control (such as this [[https://github.com/Tdback/dotfiles][repository]]) so that I can sync my configuration across every machine that I use. Tools such as Ansible have allowed me to transform my desktop configuration into /infrastructure as code/, allowing reproducibility across my entire system's configuration. I am also exploring distributions such a [[https://guix.gnu.org][GNU Guix]], which takes my current configuration style to a whole new level.
+
+Want to run Arch yourself, but you're worried about losing your files after a bad update? I wrote a simple script that runs as a daily [[https://en.wikipedia.org/wiki/Cron][cron]] job on my home server, using [[https://rsync.samba.org][rsync]] to automatically backup my home directory in case something goes south. If my system ever bricks all I need to do is re-install Arch, use rsync to pull all of my files back over, and it'll be like nothing ever happened!
+
+#+begin_src shell
+
+  #!/usr/bin/env sh
+
+  # Backup all home directory files, but don't include my external drive
+  rsync --archive --quiet --delete --rsh='ssh -i /root/.ssh/backup -p 9999' \
+        --exclude='Media/' root@arch.box:/home/td/ /home/td/backups/arch
+
+  # Change access permissions from `root' to `td' user on Debian box
+  chown td:sudo --recursive /home/td/backups/arch
+
+  # Don't forget to log :)
+  echo rsync job completed: $(date) >> /home/td/rsync_job.log
+
+#+end_src
+
+As for the server side, I stick to good ol' [[https://debian.org][Debian]]. Nothing beats it in terms of stability.
+
+I again use Ansible to easily manage my home server configuration and ensure reproducibility. I rely on containerization tools such as [[https://docker.com][Docker]] and [[https://podman.io][Podman]] to manage several services running on my home network, such as [[https://pi-hole.net][pi-hole]] or game servers for friends. [[https://github.com/docker/compose][Docker Compose]] is yet another tool I employ to manage any applications I run as a container. Nothing feels better than to have your applications manage themselves on a reboot or a crash. 
+
+Curious about anything else I run on my home network? Feel free to reach out and I'd be happy to answer!
+
+ 
