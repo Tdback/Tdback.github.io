@@ -27,7 +27,7 @@ I wrote a set of [[https://ansible.com][Ansible]] plays to manage the various co
 #+BEGIN_EXPORT html
 <div class="src src-shell">
   <div class="highlight">
-    ansible-playbook run.yaml --ask-become-pass
+    <code>ansible-playbook run.yaml --ask-become-pass</code>
   </div>
 </div>
 #+END_EXPORT
