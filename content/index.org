@@ -26,13 +26,13 @@ I'm a firm believer in the phrase "Automate any job you do more than once". Life
 
 I love all things to do with Linux, automation, and open source. In fact, this website is open source and freely hosted on GitHub! You can view all the code I use to build it [[https://github.com/Tdback/Tdback.github.io][here]].
 
-I love computer and programming language history! Some of my favorite topics include studying Lisp (Common Lisp and Scheme), technology and protocols like IRC, and of course classic games like Quake and Super Mario Brothers!
+I love computer and programming language history! Some of my favorite topics include technology and protocols such as IRC, and of course classic games like Quake and Super Mario Brothers! I also enjoy learning the family of programming languages known as Lisp, specifically Guile Scheme, Common Lisp, and Emacs Lisp.
 
 I am also a strong advocate for the right to privacy and security. 
 
 When away from my keyboard, I enjoy spending time with my wife and our Labrador "[[file:captain.org][Captain]]".
 
-I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from system, network, and cloud security to AI model design and development.
+I am currently in my final semester of university, pursuing a Bachelor's degree in Information Security and Intelligence. My studies have ranged from system, network, and cloud security to AI model design and development. I have also achieved various industry certifications: CompTIA Security+, AWS Certified Cloud Pracitioner (CCP), and AWS Solutions Architect - Associate (SAA).
 
 Curious about my workflow or the tools I love to use? Check out my [[file:dotfiles.org][dotfiles]]! 
 
