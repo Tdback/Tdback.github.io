@@ -36,7 +36,7 @@ I am currently in my final semester of university, pursuing a Bachelor's degree 
 
 Curious about my workflow or the tools I love to use? Check out my [[file:dotfiles.org][dotfiles]]! 
 
-Feel free to contact me by email or follow me on [[https://github.com/Tdback/][GitHub]]!
+Feel free to contact me by email or follow me on [[https://github.com/Tdback/][GitHub]]! You can also find me on the [[https://en.wikipedia.org/wiki/Fediverse][Fediverse]]: [[https://mastodon.social/@tdback][@tdback@mastodon.social]].
 
 /Click on the code to run it in your browser and decode my email address:/
 #+BEGIN_EXPORT html
